@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "df72cbd8b88e866b",
+    "type": "split",
+    "children": [
+      {
+        "id": "33d8530d6001b4fc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ed4d61a43a1cc0c1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceitos Básicos do C++++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Conceitos Básicos do C++++"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "01ff2fe37aeb6ab8",
+    "type": "split",
+    "children": [
+      {
+        "id": "01118a162266d946",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "321832a6cd298c99",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "bfbcd524efeb4ae0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "347204b54bad41ca",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ad5e0fb2d6872af5",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7f5e7d8c7f8aba5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04c62d3bbdabab3d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Conceitos Básicos do C++++.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Conceitos Básicos do C++++"
+            }
+          },
+          {
+            "id": "47987c295e0c5863",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Conceitos Básicos do C++++.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Conceitos Básicos do C++++"
+            }
+          },
+          {
+            "id": "ce226f7eb38730cd",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a6dede6151d02e5f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Conceitos Básicos do C++++.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Conceitos Básicos do C++++"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "ed4d61a43a1cc0c1",
+  "lastOpenFiles": [
+    "Explicacoes_especificas/Conceitos/link_Class.md",
+    "Conceitos Básicos do C++++.md",
+    "Explicacoes_especificas/Conceitos/link_Bibliotecas.md",
+    "Explicacoes_especificas/Conceitos/link_Class_get_e_set_propriedades.md",
+    "Funções e Bibliotecas do c++++.md",
+    "--INDEX--.md",
+    "Explicacoes_especificas/Conceitos",
+    "Explicacoes_especificas",
+    "CSS/Conceitos/link_Class_get_e_set_propriedades.md",
+    "CSS/Conceitos/link_Class.md",
+    "CSS/Conceitos",
+    "CSS",
+    "link_Class.md",
+    "C++++ integrado com Godot.md",
+    "Welcome.md"
+  ]
+}
