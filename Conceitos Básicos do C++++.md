@@ -80,17 +80,45 @@ Console.Write("Essa pedra ela é " + pedra_usavel_string);
 
 
 ## Criando Array : 
-Coloque o tipo de dado da array antes de colocar seu nome.
-EX:
-> int[] array_de_pedras ;
-> string[] nome_das_pedras = new string[] = {"João", "Gustavo Lima", "Rauã"};
+* Array possui um tamanho definido, não pode ser aumentado nem diminuído após usa criação.
+* [-- LINK --](https://www.w3schools.com/cs/cs_arrays_multi.php)
+* Coloque o tipo de dado da array antes de colocar seu nome :
+	```CS
+	string[] nome_das_pedras = {"João", "Gustavo Lima", "Rauã"};
+	``` 
+* Para criar uma array vazia com um tamanho definido, siga essa sintaxe : 
+	```CS
+	string[] lista = new string[4]
+	```
+
+* Para criar array de 2 dimensões, siga essa exemplo : 
+	```CS
+	int[,] lista = {{1,2,3},{12,24,36}};
+	Console.WriteLine(lista[1,2]); // printa "36"
+	```
 
 "array_name.Lenght" , retorna tantos itens a **array** tem.
 ## Criando List : 
-Parecido com criar Array, só com uma sintaxe diferente 
-EX: 
-> List\<float\> lista_de_numeros_vazia;
-> List\<int\> lista_de_numeros_cheia = new List\<int\>() {5,13,89,55};
+* List diferente de Arrays, podem ter seu tamanho modificado após sua atribuição. 
+* No C#, **list é um class**. 
+* [-- LINK --](https://www.youtube.com/watch?v=vQzREQUhGSA)
+* Para criar uma list, siga a sintaxe : 
+	```CS
+	List<int> lista = new List<int>();
+	```
+* Para adicionar elementos para a lista, use a função da class list **Add()**, ela adiciona um item no começo a lista , exemplo : 
+	```CS
+	List<int> lista = new List<int>();
+	lista.Add(99);
+	Console.WriteLine(lista[0])
+	```
+* Para remover elementos de uma lista, use a função da class list **Remove()**, essa função remove o que possui em seu parâmetro, exemplo : 
+	```CS
+	List<string> lista = new List<string>(){"AAAAAAA"};
+	lista.Remove("AAAAAAA");
+	Console.WriteLine(lista);
+	```
+ 
 
 "lista_name.Count" , retorna tantos itens a **lista** tem 
 # Lações de Repetições 
@@ -355,7 +383,7 @@ class Program
 
 ### Palavras chaves de um Class
 Você pode adicionar algumas palavras chaves a sua class, deixando ela com algumas propriedades especiais, alguma dessas palavras chaves são :
-* **Static :** Colocando isso na classe ou em suas variáveis, vai fazer com que essa seja **GLOBAL**, fazendo com que você não precise criar um objeto para acessar seus métodos/atributos E variáveis . Para criar uma class, coloque o primeira letra do nome da sua class em maiúsculo. 
+* **Static :** Colocando isso na classe/variáveis ou funções, vai fazer com que elas sejam capazes de serem chamadas **através do Class**, sem precisar usar um objeto para chama-las. 
 EX Static: 
 ```cs
 static class Falar
@@ -617,7 +645,9 @@ EX:
 ## Conceitos Básicos :
 ### Criando arquivo C++++ :
 Para criar um arquivo c#, você precisa ter abaixado:
+[ -- ESPECIFICAÇÕES DO LINUX LINK --](https://learn.microsoft.com/pt-br/dotnet/core/install/linux?WT.mc_id=dotnet-35129-website)
 > .net framework.
+> 	No linux, precisa instalar o **SDK**, ele permite rodar e codar arquivos c#.
 > extensão "C#" do Visual Studio Code.
 > extensão "C# Dev Kit" do Visual Studio Code.
 
